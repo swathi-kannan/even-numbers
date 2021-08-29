@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -5,12 +6,12 @@ int main()
     printf("\n Start");
     printf("\nEnter total number:");
     scanf("%d",&n);
-    for(int i=1;i<=n;)
+    for(int j=1;j<=n;)
     {
         if(c%2==0)
         {
             printf("%d ",c);
-            i++;
+            j++;
         }
         c++;
     }
